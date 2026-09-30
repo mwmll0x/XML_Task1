@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE timeTable SYSTEM "timetable.dtd">
+
+<timeTable>
+    <complexes>
+        <complex code="C101">
+            <name>Главный корпус</name>
+            <address>ул. Ленина, 10</address>
+        </complex>
+
+        <complex code="C202">
+            <name>Учебный корпус №2</name>
+            <address>ул. Пушкина, 25</address>
+        </complex>
+    </complexes>
+
+    <lessons>
+        <lesson no="1" complex="C101">
+            <date>2026-10-01</date>
+            <time>09:00</time>
+        </lesson>
+
+        <lesson no="2" complex="C202">
+            <date>2026-10-01</date>
+            <time>11:00</time>
+        </lesson>
+
+        <lesson no="3" complex="C101">
+            <date>2026-10-02</date>
+            <time>13:00</time>
+        </lesson>
+    </lessons>
+</timeTable>
